@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Marvel HTML Bootstrap 4 Template</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    
+    <style>
+.carousel {
+    width: 70%; /* Set a fixed width for the carousel */
+    margin: auto; /* Center the carousel horizontally */
+}
+
+.carousel-item {
+    height: 500px; /* Increase height as needed */
+}
+
+.carousel-item img {
+    max-height: 100%; /* Ensure image fits within the item */
+    object-fit: cover; /* Cover the entire area of the column */
+    width: 100%; /* Make the image width fill the item */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition for smooth effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+.carousel-item img:hover {
+    transform: scale(1.05); /* Slightly scale the image on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+.carousel-control-prev {
+  left: -90px;
+  background-color: transparent; /* Ensure background is transparent */
+  filter: invert(28%) sepia(99%) saturate(457%) hue-rotate(7deg) brightness(94%) contrast(97%);
+}
+.carousel-control-next {
+  right: -90px;
+  background-color: transparent; /* Ensure background is transparent */
+  filter: invert(28%) sepia(99%) saturate(457%) hue-rotate(7deg) brightness(94%) contrast(97%);
+}
+
+.text_1,
+.text_2,
+.text_3,
+.text_4,
+.text_5,
+.text_6,
+.text_7,
+.text_8,
+.text_9,
+.text_10,
+.text_11{
+  color:#999090;
+}
+
+.heading_99 {
+    position: relative;
+    left: 87%;
+    transform: translateX(-50%);
+}
+
+  </style>
+  </head>
+  <body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Unaiza</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#carouselExampleIndicators" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-section-2" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Switch mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                      <small class="small-text" style="margin-left: -15px;">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                      <h1 class="animated animated-text">
+                            <span class="mr-2">Hello, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">Unaiza Saqib</span>
+                                    <span class="animated-item">ML Engineer</span>
+                                    <span class="animated-item">Data Analyst</span>
+        
+                                </div>
+                        </h1>
+
+                        <p class="text_1">I am still gaining experiences and building a junior practitioner in the digital world, the physical world, or somewhere in between while sipping gallons of coffee!</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="https://drive.google.com/file/d/1Oesg93bMmVgLSiwHYH_QeoDxGoESVmJM/view?usp=sharing" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                          <a href="#contact-section-2" class="btn custom-btn custom-btn-bg custom-btn-link">Want To Work Together?</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/undraw/undraw_software_engineer_lvl5.svg" class="img-fluid" alt="svg image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- carousel -->
+    <h2 class="heading_99">Projects Made By Me</h2>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="row align-items-center h-100">
+                  <div class="col-md-6 text-center">
+                      <h2>Hotel Management System</h2>
+                      <p class="text_2">Built a simple Hotel Management System to handle basic tasks like booking rooms, checking guests in and out, and storing guest details. Use classes to represent guests, rooms, and bookings.</p>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="images/1.jpeg" class="d-block w-100" alt="Slide 1 Image">
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="row align-items-center h-100">
+                  <div class="col-md-6 text-center">
+                      <h2>Spam Mail Detection</h2>
+                      <p class="text_3">Created a Python program to detect spam emails, Use data science basics to analyze email text and classify it as "Spam" or "Not Spam." This project will introduce you to concepts like data cleaning, feature extraction, and basic machine learning</p>
+                  </div>
+                  <div class="col-md-6">
+                      <img src="images/2.jpeg" class="d-block w-100" alt="Slide 2 Image">
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="row align-items-center h-100">
+                  <div class="col-md-6 text-center">
+                      <h2>Movie Recommendation System</h2>
+                      <p class="text_4">Created a Python-based Movie Recommendation System that suggests movies to users based on their preferences. This project will introduce you to AI concepts like data filtering, similarity scoring, and recommendation algorithms.</p>
+                  </div>
+                  <div class="col-md-6">
+                      <img src="images/3.jpeg" class="d-block w-100" alt="Slide 3 Image">
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center h-100">
+                <div class="col-md-6 text-center">
+                    <h2>Skin Disease Analysis</h2>
+                    <p class="text_5">Built an AI model in Python to help analyze and classify skin diseases based on images. This project will introduce you to image processing, deep learning, and model training. It's a powerful way to see how AI can assist in healthcare by identifying patterns and making predictions.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/4.jpeg" class="d-block w-100" alt="Slide 2 Image">
+                </div>
+            </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+  </div>
+    <!-- carousel -->
+    <!-- PROJECTS -->
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Workshop Experiences</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2022</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Cloud Computing</span></h3>
+                                  <p class="text_6">The workshop covered the fundamentals of cloud computing, focusing on key service models like IaaS, PaaS, and SaaS. It highlighted how cloud technology enhances scalability, flexibility, and data management.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2023</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Internet Of Things</span></h3>
+                                <p class="text_7">The workshop explored the Internet of Things (IoT), discussing how interconnected devices communicate and share data. It emphasized real-world applications, such as smart homes and industrial automation, and addressed the importance of security and data privacy in IoT implementations.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2024</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Chatbot Development</h3>
+                                <p class="text_8">The workshop focused on chatbot development, covering essential topics like natural language processing and machine learning. Participants gained insights into creating conversational interfaces, understanding user intents, and designing engaging user experiences. The importance of training data and continuous improvement for chatbot effectiveness was also highlighted.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2024</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Stack Development</h3>
+                                <p class="text_9">The workshop on stack development provided valuable insights into building full-stack applications. Topics included front-end technologies like HTML, CSS, and JavaScript, alongside back-end frameworks such as Node.js and Express. Participants explored database integration and RESTful APIs, emphasizing the importance of seamless communication between the front end and back end.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Non-Technical Expertise</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2020</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Event Management</span></h3>
+                                  <p class="text_10">I am also a beginner event manager,  organized, with skills in planning and time management. They communicate well with clients and vendors, handle unexpected issues smoothly, manage budgets, bring creative ideas to themes and setups, and pay close attention to detail.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2023</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Marketing</span></h3>
+                                <p class="text_11">I am a beginner marketer with skills in content creation and a solid understanding of social media platforms. I have a good eye for trends, can analyze basic data, and communicate brand messages effectively. I’m able to work on campaigns and bring a creative approach to engaging audiences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact-section-2" style="padding: 60px; text-align: center; background: #9f9f9f79;">
+      <h2>Contact Me</h2>
+      <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+          <div style="background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+              <i class="fas fa-envelope" style="font-size: 24px; color: #ff6f61;"></i>
+              <p>Email: <a href="mailto:example@example.com">unaizasaqibus@gmail.com</a></p>
+          </div>
+          <div style="background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+              <i class="fas fa-phone" style="font-size: 24px; color: #ff6f61;"></i>
+              <p>Phone: <a href="tel:+1234567890">+92 322 5519196</a></p>
+          </div>
+          <div style="background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+              <i class="fas fa-map-marker-alt" style="font-size: 24px; color: #ff6f61;"></i>
+              <p>Git: <a href="https://github.com/unaiza2029">My Github</a></p>
+          </div>
+      </div>
+  </section>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                <div class="col-lg-12 col-12">                                
+                  <p class="copyright-text text-center">Copyright &copy; 2069 Madi & Co. All rights reserved</p>
+                  <p class="copyright-text text-center">Designed by <a href="https://www.linkedin.com/in/mahdsadiq" target="_blank">Madi</a></p>
+              </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
