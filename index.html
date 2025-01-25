@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Unaiza's Portfolio</title>
+    <title>Marvel HTML Bootstrap 4 Template</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/unicons.css">
@@ -65,7 +65,16 @@
     left: 87%;
     transform: translateX(-50%);
 }
-
+.blog-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: box-shadow 0.3s;
+        }
+        .blog-card:hover {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
   </style>
   </head>
   <body>
@@ -92,6 +101,9 @@
                     </li>
                     <li class="nav-item">
                         <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blogs" class="nav-link"><span data-hover="Blogs">Blogs</span></a>
                     </li>
                     <li class="nav-item">
                         <a href="#contact-section-2" class="nav-link"><span data-hover="Contact">Contact</span></a>
@@ -207,6 +219,41 @@
   </div>
     <!-- carousel -->
     <!-- PROJECTS -->
+<!-- BLOGS -->
+<section id="blogs" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Blogs</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="blog-card">
+                    <h3>Why I Chose Data Science as My Undergraduate Major</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blog-card">
+                    <h3>op 5 Skills Every Aspiring Data Scientist Should Learn in 2024</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blog-card">
+                    <h3>How to Build Your First Data Science Portfolio as a Student</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blog-card">
+                    <h3>The Best Free Resources to Learn Data Science in 2024</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="blogs.html" class="btn btn-primary">Read Other Blogs</a>
+        </div>
+    </div>
+</section>
 
     <!-- FEATURES -->
     <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
